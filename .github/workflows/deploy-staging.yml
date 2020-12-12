@@ -7,7 +7,7 @@ on:
 env:
   DOCKER_IMAGE_NAME: ccPhaidrosz-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
-  AZURE_WEBAPP_NAME: ccPhaidrosz-tictactoe
+  AZURE_WEBAPP_NAME: ccPhaidrosz-ttt-app
 
 jobs:
   build:
