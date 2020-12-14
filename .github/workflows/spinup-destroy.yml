@@ -11,6 +11,7 @@ env:
   AZURE_LOCATION: '"West Europe"'
   AZURE_WEBAPP_NAME: phaidrosz-tictactoe
 
+
 jobs:
   setup-up-azure-resources:
     runs-on: ubuntu-latest
