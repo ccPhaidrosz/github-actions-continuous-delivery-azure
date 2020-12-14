@@ -5,9 +5,9 @@ on:
     types: [labeled]
 
 env:
-  DOCKER_IMAGE_NAME: ccPhaidrosz-azure-ttt
+  DOCKER_IMAGE_NAME: cc-phaidrosz-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
-  AZURE_WEBAPP_NAME: ccPhaidrosz-ttt-app
+  AZURE_WEBAPP_NAME: cc-phaidrosz-ttt-app
 
 jobs:
   build:
