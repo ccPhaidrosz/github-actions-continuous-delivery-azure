@@ -6,10 +6,11 @@ on:
 
 env:
   PACKAGES_TOKEN: ${{secrets.PACKAGES_TOKEN}}
-  AZURE_RESOURCE_GROUP: cd-with-actions
+  AZURE_RESOURCE_GROUP: github-labs-app
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"West Europe"'
-  AZURE_WEBAPP_NAME: ccPhaidrosz-tictactoe
+  AZURE_WEBAPP_NAME: molnar-atesz-tictactoe
+
 
 jobs:
   setup-up-azure-resources:
